@@ -1,0 +1,157 @@
+body
+{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* header Side */
+
+h1
+{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Otomanopee One', sans-serif;
+    color: rgba(34, 5, 5, 0.835);
+}
+.paragraph-design
+{
+    font-size: 15px;
+    color: gray
+}
+
+.flexible
+{
+   display: flex;
+   margin-bottom: 10px;
+} 
+.orange
+{
+    color: rgb(255, 169, 8);
+}
+.half-width
+{
+    width: 50%;
+    padding:5%;
+    color: gray;
+}
+.half-width img
+{
+    width: 90%;
+}
+
+/* Middle Block */
+
+.middle-banner
+{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    padding-top: 3%;
+    padding-right: 5%;
+}
+#size   /*person2 image*/
+{
+    width: 66%;
+}
+.middle-banner h2
+{
+    color: black;
+    font: 800;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.button   /* Button */
+{
+    text-decoration: none;
+    background-image: linear-gradient(orange,rgb(224, 74, 47)
+    );
+    color:white;
+    font-size: 15px;
+    font-weight: 700px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.font-design
+{
+    font-family:sans-serif;
+}
+
+/* Recipie block */
+
+.recipie-item
+{
+    width: 100%;
+}
+.recipie-item h1 
+{
+    font-family: font-family: 'Lobster', cursive;
+    font-family: 'Otomanopee One', sans-serif;;
+    text-align: center;
+    color: rgba(128, 128, 128, 0.959);
+}
+.recipie-item .text-design
+{
+    text-align: center;
+    font-family: font-family: 'Lobster', cursive;
+    font-family: 'Otomanopee One', sans-serif;;
+    color: rgba(2, 1, 1, 0.787);
+}
+
+.recipie-image
+{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    border: 2px solid rgba(245, 245, 245, 0.281);
+    border-radius: 25px;
+    box-shadow: 1px 1px 6px 2px ;
+
+}
+.recipie-image img
+{
+    width: 100%;
+    display: flex;
+}
+
+/* Semi Box */
+
+.Semi-Box
+{
+   width: 80%;
+   text-align: center;
+   margin:10%;
+   border: 2px solid #f5f5f5;
+   border-radius: 30px;
+   box-shadow: 2px 1px 6px 2px ;
+}
+.number
+{
+    width: 100%;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.number h2
+{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 40px;
+}
+
+
+/*Footer Design*/
+footer
+{
+    text-align: center;
+    background-color: rgb(6, 7, 6);
+    padding: 15px;
+}
+footer h1
+{
+    color: rgb(165, 185, 165);
+    
+}
+footer p
+{
+    color: rgb(197, 221, 197);
+    
+}
